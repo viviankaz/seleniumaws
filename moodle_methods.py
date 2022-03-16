@@ -22,7 +22,7 @@ options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(options=options)
 
-s = Service(executable_path='../chromedriver.exe')
+
 
 
 

@@ -2,12 +2,13 @@
 import datetime
 from time import sleep
 from selenium import webdriver  # import selenium to the file
-from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import moodle_locators as locators
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import Select  # <--- add this import for drop down lists
 # from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.add_argument("--headless")
